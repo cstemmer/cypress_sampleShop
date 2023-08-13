@@ -3,7 +3,6 @@ const products = '.features_items'
 const productTile = `${products} .product-image-wrapper`
 const productOverlay = '.product-overlay'
 
-
 module.exports = {
     saleImage: '#sale_image',
     searchInput: '#search_product',
@@ -22,6 +21,7 @@ module.exports = {
     categoryKidsSubcategories: `${sideBar} > :nth-child(2) > :nth-child(3) li a`,
     brandsHeading: `${sideBar} .brands_products h2`,
     brandNames: `${sideBar} .brands-name li a`,
+    // main product section
     productsHeading: `${products} .title`,
     productTile: productTile,
     productImage: '.productinfo img',

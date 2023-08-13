@@ -1,10 +1,11 @@
 const area = '#form'
 const signupArea = `${area} .signup-form`
-const signupForm = `.login-form`
+const signupForm = '.login-form'
+
 module.exports = {
     // signup section on login page
     signupHeader: `${signupArea} :first-child`,
-    nameInput:  `${signupArea} [data-qa=signup-name]`,
+    nameInput: `${signupArea} [data-qa=signup-name]`,
     emailInput: `${signupArea} [data-qa=signup-email]`,
     signupButton: `${signupArea} [data-qa=signup-button]`,
     errorMessage: `${signupArea} form p`,
@@ -57,4 +58,4 @@ module.exports = {
     accountCreatedHeader: `${area} h2`,
     accountCreatedText: `${area} p`,
     continueButton: '[data-qa=continue-button]'
- }
+}

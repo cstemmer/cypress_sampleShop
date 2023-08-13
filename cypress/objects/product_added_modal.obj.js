@@ -6,5 +6,5 @@ module.exports = {
     icon: `${modal} .modal-header i`,
     message: `${modal} .modal-body > :first-child`,
     viewCartLink: `${modal} .modal-body a`,
-    continueShoppingButton: `${modal} .close-modal`,
+    continueShoppingButton: `${modal} .close-modal`
 }

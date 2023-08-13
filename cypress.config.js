@@ -1,7 +1,7 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
- env: {
+    env: {
         password: 'Testtest1!'
     },
     retries: {
@@ -12,10 +12,7 @@ module.exports = defineConfig({
     chromeWebSecurity: false,
     video: false,
     videoUploadOnPasses: false,
-  e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
-    baseUrl: 'https://automationexercise.com'
-  },
+    e2e: {
+        baseUrl: 'https://automationexercise.com'
+    }
 })
