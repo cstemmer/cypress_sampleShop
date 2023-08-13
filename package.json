@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cstemmer/cypress_sampleShop#readme",
   "devDependencies": {
-    "cypress": "^12.17.3"
+    "cypress": "^12.17.3",
+    "cypress-real-events": "^1.10.0"
   }
 }

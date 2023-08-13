@@ -34,7 +34,7 @@ describe('Header', () => {
             .and('have.attr', 'href', '/contact_us')
     })
 
-    it('check all header elements are visible for logged out user', () => {
+    it('check all header elements are visible for logged in user', () => {
             cy.loginFrontEnd()
             cy.get(header.logoImage).should('be.visible')
                 .and('have.attr', 'src').should('contain', 'logo.png')
